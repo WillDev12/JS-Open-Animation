@@ -8,10 +8,11 @@ You can install by doing the following:
 
 ``` html
 <html>
-    <head></head>
-    <body onLoad="openAnimation('[YOUR IMAGE URL HERE]')"> <!-- be sure to add the onLoad function or this will not work -->
+    <head>
         <script src="JS-Animation.js"></script> <!-- Place script tag in body -->
-                                                <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/v1.0.0/JS-Animation.js -->
+        <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/v1.0.0/JS-Animation.js -->
+    </head>
+    <body onLoad="openAnimation('[YOUR IMAGE URL HERE]')"> <!-- be sure to add the onLoad function or this will not work -->
     </body>
 </html>
 ```
