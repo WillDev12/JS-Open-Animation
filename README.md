@@ -1,6 +1,6 @@
 # JS open animation
 
-Provided is a program that creates an open animation when a page loads similar to [linkvertise](https://linkertise.com)
+Provided is a program that creates an open animation when a page loads similar to [linkvertise](https://linkvertise.com/)
 
 # How to install
 
