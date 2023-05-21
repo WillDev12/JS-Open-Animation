@@ -1,9 +1,21 @@
 <html>
   <head>
-    <script src="https://WillDev12.github.io/JS-Open-Animation/v1.0.0/JS-Animation.js"></script>
+    <script src="./v2.0.0/JS-animation.js"></script>
   </head>
-<body onLoad="openAnimation('https://avatars.githubusercontent.com/u/93289932?v=4')" style="justify-content: center; text-align: center;">
-  <p>Page content</p>
-  <button onclick="openAnimation('https://avatars.githubusercontent.com/u/93289932?v=4')">Reopen</button>
-</body>
+  <body style="justify-content: center; text-align: center">
+    <p>Page content</p>
+    <button onclick="replay()">Reopen</button>
+    <script>
+      function replay() {
+        openAnimation.play([
+          "white",
+          "https://www.wikihow.com/images/thumb/1/1f/Do-Percentages-on-a-Calculator-Step-14-Version-2.jpg/v4-460px-Do-Percentages-on-a-Calculator-Step-14-Version-2.jpg.webp",
+        ]);
+      }
+      openAnimation.play([
+        "white",
+        "https://www.wikihow.com/images/thumb/1/1f/Do-Percentages-on-a-Calculator-Step-14-Version-2.jpg/v4-460px-Do-Percentages-on-a-Calculator-Step-14-Version-2.jpg.webp",
+      ]);
+    </script>
+  </body>
 </html>
