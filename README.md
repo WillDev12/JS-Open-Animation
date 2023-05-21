@@ -6,15 +6,29 @@ Provided is a program that creates an open animation when a page loads similar t
 
 You can install by doing the following:
 
-``` html
+```html
 <html>
-    <head>
-        <script src="JS-Animation.js"></script> <!-- Place script tag in body -->
-        <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/v1.0.0/JS-Animation.js -->
-    </head>
-    <body onLoad="openAnimation('[YOUR IMAGE URL HERE]')"> <!-- be sure to add the onLoad function or this will not work -->
-    </body>
+  <head>
+    <script src="JS-Animation.js"></script>
+    <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/v2.0.0/JS-Animation.js -->
+  </head>
+  <body>
+    <script> // this is where you run it
+        openAnimation.play([
+            "background-color".
+            "image-url"
+        ])
+    </script>
+  </body>
 </html>
+```
+
+# Changelog
+
+```
+Added color support
+Converted to javascript params
+Changed run location
 ```
 
 You can view an example of this in action [here](https://WillDev12.github.io/JS-Open-Animation).
