@@ -10,7 +10,7 @@ You can install by doing the following:
 <html>
   <head>
     <script src="JS-Animation.js"></script>
-    <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/v2.0.0/JS-Animation.js -->
+    <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/src/v2.0.0/JS-Animation.js -->
   </head>
   <body>
     <script> // this is where you run it
@@ -26,9 +26,9 @@ You can install by doing the following:
 # Changelog
 
 ```
-Added color support
-Converted to javascript params
-Changed run location
+$ Added color support
+$ Converted to javascript params
+$ Changed run location
 ```
 
 You can view an example of this in action [here](https://WillDev12.github.io/JS-Open-Animation).
