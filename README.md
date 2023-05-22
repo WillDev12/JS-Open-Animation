@@ -9,8 +9,7 @@ You can install by doing the following:
 ```html
 <html>
   <head>
-    <script src="JS-Animation.js"></script>
-    <!-- alternate embed link: https://WillDev12.github.io/JS-Open-Animation/src/v2.0.0/JS-Animation.js -->
+    <script src="https://willdev12.github.io/JS-Open-Animation/src/v2.0.0/JS-animation.js"></script>
   </head>
   <body>
     <script> // this is where you run it
@@ -22,6 +21,7 @@ You can install by doing the following:
   </body>
 </html>
 ```
+<sub>Javascript link: [JS-animation.js](https://willdev12.github.io/JS-Open-Animation/src/v2.0.0/JS-animation.js)</sub>
 
 # Changelog
 
